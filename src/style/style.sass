@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=PT+Serif&family=Poppins:wght@400;600&display=swap')
+
+$font-stack: 'Poppins', sans-serif
+$font-job: 'PT Serif', serif
+$font-footer: 'Montserrat', sans-serif
+    
+*
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+
+body
+    position: absolute
+    left: 0
+    right: 0
+    background: #fafafa
+    width: 100%
+
+header
+    width: 70%
+    margin: 0 auto
+
+nav
+    display: flex
+    font-family: $font-stack
+
+    .logo
+        flex: 1
+        margin-top: 109px
+        font-family: $font-job
+        font-size: 36px
+        letter-spacing: -0.045em
+        line-height: 48px
+        font-style: normal
+        font-weight: bold
+        color: #000000
+
+    .intro-team 
+        margin-top: 109px
+        p
+            width: 439px
+            font-size: 18px
+            line-height: 27px
+
+.presentation
+    width: 70%
+    margin: 0px auto
+    margin-top: 96px
+
+.list-team-web
+    display: flex
+    justify-content: space-between
+
+
+.team-line-two
+    margin-top: 100px
+
+.card
+    margin: 10px
+    display: flex
+    margin-bottom: 120px
+
+
+.card-profile 
+
+    img
+        width: 238px
+        margin: 0px 50px 10px 0px
+
+    h4
+        font-family: $font-stack
+        font-style: normal
+        font-size: 18px
+        font-weight: 600
+        line-height: 27px
+        color: #000000
+
+.job
+    position: absolute
+    transform: rotate(90deg)
+    transform-origin: 0 0
+    margin-left: 255px
+    font-family: $font-job
+    font-size: 12px
+    line-height: 16px
+    text-transform: uppercase
+    color: #000000
+    font-style: normal
+    font-weight: normal
+
+footer
+    font-family: $font-footer
+    text-align: center
+    font-style: normal
+    font-weight: 600
+    font-size: 14px
+    line-height: 17px
+    color: #a9a9a9  
+    margin-bottom: 30px
+
+
+.list-team-mobile
+    display: none
+
+// Responsive Layout
+
+@media screen and ( max-width: 576px  )
+
+    body
+        overflow-x: hidden
+
+    header
+        width: 100%
+        margin: auto
+
+    nav
+        flex-direction: column
+        margin-top: 0
+        margin-left: 12px
+
+        .logo
+            margin: 17px 0px 0px 0px
+        
+        .intro-team 
+            margin: 38px 0px 0px 0px
+
+
+    .presentation
+        margin-top: 38px
+        width: 100%
+        
+
+    
+    .card-profile
+        img
+            width: 138.72px
+            margin: 0px 60px 10px 0px
+        h4
+            font-size: 14px
+            line-height: 21px
+
+    .job
+        margin-left: 155px
+        font-size: 10px
+        line-height: 13px
+        position: absolute
+    
+    .center
+        margin-left: 155px
+        width: 100%
+
+    footer
+        
+
+    .list-team-web
+        display: none
+
+    .list-team-mobile
+        width: 100%
+        display: flex
+        justify-content: space-between
+
+
+ 
+
+    
+
+
+        
+
+    
